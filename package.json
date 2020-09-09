@@ -1,6 +1,6 @@
 {
   "name": "react_components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Reusable React generic components",
   "main": "index.js",
   "scripts": {

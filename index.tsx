@@ -1,8 +1,9 @@
-import { DoubleButton, Behavior, BootstrapStyle } from './src/DoubleButton'
+import {
+  DoubleButton   as DoubleButton_   ,
+  Behavior       as Behavior_       ,
+  BootstrapStyle as BootstrapStyle_ ,
+} from './src/DoubleButton'
 
-export default {
-  Behavior       ,
-  BootstrapStyle ,
-
-  DoubleButton ,
-}
+export const Behavior       = Behavior_
+export const BootstrapStyle = BootstrapStyle_
+export const DoubleButton   = DoubleButton_
