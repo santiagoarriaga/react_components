@@ -1,5 +1,8 @@
-import { DoubleButton } from './src/DoubleButton'
+import { DoubleButton, Behavior, BootstrapStyle } from './src/DoubleButton'
 
 export default {
-  DoubleButton
+  Behavior       ,
+  BootstrapStyle ,
+
+  DoubleButton ,
 }
