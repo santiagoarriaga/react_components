@@ -1,0 +1,15 @@
+{
+  "compilerOptions":
+  {
+    "outDir": "./dist/",
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es6",
+    "jsx": "react",
+    "lib": ["dom", "es2019"],
+  }
+}

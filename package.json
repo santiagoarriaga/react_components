@@ -1,0 +1,33 @@
+{
+  "name": "react_components",
+  "version": "1.0.0",
+  "description": "Reusable React generic components",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santiagoarriaga/react_components.git"
+  },
+  "keywords": [
+    "react",
+    "typescript"
+  ],
+  "author": "Santiago Arriaga",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/santiagoarriaga/react_components/issues"
+  },
+  "homepage": "https://github.com/santiagoarriaga/react_components#readme",
+  "devDependencies": {
+    "@types/react": "^16.9.49",
+    "@types/react-dom": "^16.9.8",
+    "typescript": "^4.0.2"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
