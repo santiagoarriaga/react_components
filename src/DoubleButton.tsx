@@ -2,7 +2,7 @@ import React from "react"
 
 type ValueType = string | number | boolean
 
-export enum Behavior
+enum Behavior
 {
   /*
    * values is compared against id; but if value is an empty string, null or
@@ -16,7 +16,7 @@ export enum Behavior
   RADIO
 }
 
-export enum BootstrapStyle
+enum BootstrapStyle
 {
   PRIMARY   = "primary"   ,
   SECONDARY = "secondary" ,
@@ -64,7 +64,7 @@ const _checkIfShouldShowActive = ( behavior: Behavior ) =>
   }
 }
 
-export const DoubleButton =
+const DoubleButton =
 (
   { action, behavior, catalog, invalid, value }: DoubleButtonProps
 ) =>
@@ -107,3 +107,5 @@ export const DoubleButton =
     </div>
   )
 }
+
+export default { Behavior, BootstrapStyle, DoubleButton }
